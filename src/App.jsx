@@ -1,11 +1,18 @@
-import React from "react"
+import React from 'react'
+import NavBar from "./components/NavBar"
+import Home from "./components/Home"
+import './App.css'
+import SocialLinks from './components/SocialLinks'
+
 function App() {
- 
 
   return (
-    <h1 className="text-7xl font-bold underline font-signature">
-      Hello world!
-    </h1>
+    <div>
+      <NavBar/>
+      <Home/>
+      <SocialLinks/>
+  </div>
+    
   )
 }
 
