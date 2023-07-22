@@ -53,16 +53,17 @@ const Portfolio = () => {
         </div>
       
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-          {portfolios.map(({id,src}) =>{
-            <div key={id } className='shadow-md shadow-purple-800 rounded-lg'>
-              <img  src={src} alt="" className='hover:scale-105 duration-200 rounded-md'/>
+          {/* {portfolios.map(({id,src}) =>{
+            
+
+          })} */}
+          <div  className='shadow-md shadow-purple-800 rounded-lg'>
+              <img  src={arrayDestruct} alt="" className='hover:scale-105 duration-200 rounded-md'/>
               <div className='flex items-center justify-center '>
                 <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-150 font-bold  '>Demo</button>
                 <button  className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-150 font-bold'>Code</button>
               </div>
           </div>
-
-          })}
           
 
           
