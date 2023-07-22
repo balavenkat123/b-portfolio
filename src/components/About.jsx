@@ -3,10 +3,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="h-screen w-full bg-gradient-to-b from-blue-950 via-blue-900 to-black text-white" id="about">
+    <section className="h-screen w-full bg-gradient-to-b from-blue-950 via-blue-900 to-black text-white md:h-screen" id="about">
       <div className="container mx-auto grid  items-center justify-center ">
         <div className="about-info">
-          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2 px-2">
+          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2 ">
             About Me
           </h2>
 

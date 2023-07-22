@@ -4,15 +4,22 @@ import Home from "./components/Home"
 import './App.css'
 import SocialLinks from './components/SocialLinks'
 import About from './components/About'
+import Portfolio from './components/Portfolio'
 
 function App() {
 
   return (
     <div>
+      
       <NavBar/>
       <Home/>
       <SocialLinks/>
       <About/>
+      <Portfolio />
+      
+      
+      
+      
   </div>
     
   )
