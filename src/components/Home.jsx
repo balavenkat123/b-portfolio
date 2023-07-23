@@ -15,7 +15,7 @@ const Home = () => {
           
           <p className='text-gray-500 py-4 max-w-md'>i'll edit about me..ohwf.</p>
           <div>
-            <button className='group text-black font-bold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-indigo-300 to-purple-400 cursor-pointer animate-bounce'>
+            <button className='group static text-black font-bold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-indigo-300 to-purple-400 cursor-pointer animate-bounce'>
               portfolio😎 <span className='group-hover:rotate-90 duration-300'><CgArrowRight/> </span>
             </button>
           </div>

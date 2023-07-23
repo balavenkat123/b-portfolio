@@ -3,12 +3,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="h-screen w-full bg-gradient-to-b from-blue-950 via-blue-900 to-black text-white md:h-screen" id="about">
+    <div className="h-screen w-full bg-gradient-to-b from-blue-950 via-blue-900 to-black text-white ">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
-        <div className="about-info">
+        <div className="pb-8">
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2 ">
             About Me
           </h2>
+        </div>  
 
           <p className="pb-5 px-10 text-xl">
             Hi, My Name Is Bala venkat everyone calls me Bala. I am a
@@ -28,7 +29,7 @@ const About = () => {
             In my spare time I create YouTube videos and write blogs on my Blog.
             Where I talk about programming theory and build various projects.
           </p>
-        </div>
+        
 
         {/* <div className=" about-img ">
           <img
@@ -38,7 +39,7 @@ const About = () => {
           />
         </div> */}
       </div>
-    </section>
+    </div>
   );
 };
 
