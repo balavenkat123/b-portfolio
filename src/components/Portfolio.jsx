@@ -1,11 +1,9 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import armoon from "../assets/portfolio/ar-moon.png";
+import bkbikes from "../assets/portfolio/bk-bikes.png";
+import bcounter from "../assets/portfolio/bcounter.png";
 import bshop from '../assets/portfolio/bshpopz.png';
+import portfolio from '../assets/portfolio/portfolio.png';
 
 const Portfolio = () => {
   const portfolios = [
@@ -17,27 +15,27 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: bshop,
-      link:"https://b-shopzz.netlify.app",
-      code:"https://github.com/balavenkat123?tab=repositories",
+      src: bcounter,
+      link:"bcounter.netlify.app",
+      code:"https://github.com/balavenkat123/counter-js",
     },
     {
       id: 3,
-      src: bshop,
+      src: bkbikes,
       link:"https://b-shopzz.netlify.app",
       code:"https://github.com/balavenkat123?tab=repositories",
     },
     {
       id: 4,
-      src: bshop,
-      link:"https://b-shopzz.netlify.app",
+      src: armoon,
+      link:"https://brook-loving-recorder.glitch.me/",
       code:"https://github.com/balavenkat123?tab=repositories",
     },
     {
       id: 5,
-      src: bshop,
-      link:"https://b-shopzz.netlify.app",
-      code:"https://github.com/balavenkat123?tab=repositories",
+      src: portfolio,
+      link:"https://balavenkat.vercel.app/",
+      code:"https://github.com/balavenkat123/b-portfolio",
     },
     {
       id: 6,
