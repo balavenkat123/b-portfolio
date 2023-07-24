@@ -13,7 +13,10 @@ const Home = () => {
         <div className='flex flex-col justify-center h-full' >
           <h2 className='text-4xl sm:text-6xl font-bold text-white'>Hi..i am front end developer</h2>
           
-          <p className='text-gray-500 py-4 max-w-md'>i'll edit about me..ohwf.</p>
+          <p className='text-rose-300 py-4 max-w-md'>I am a Frontend Developer. I build beautifull websites with React and Tailwind CSS
+          <br />
+          very enthusiastic to code,intersted in making different projects and explore in new technologies
+          .</p>
           <div>
             <button className='group static text-black font-bold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-indigo-300 to-purple-400 cursor-pointer animate-bounce'>
               portfolio😎 <span className='group-hover:rotate-90 duration-300'><CgArrowRight/> </span>

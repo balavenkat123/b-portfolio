@@ -7,7 +7,7 @@ const NavBar = () => {
   const links=[
     {
       id:1,
-      link:'home'
+      link:'Home'
     },
     {
       id:2,
@@ -37,7 +37,7 @@ const NavBar = () => {
 
             {links.map(({id, link})=> (
                 <li key={id} 
-                className="px-8 cursor-pointer font-medium text-gray-500 hover:scale-125 duration-200">
+                className="px-8 cursor-pointer font-medium text-gray-500 hover:scale-125 duration-200 ">
                   {link}
                 </li>
                 

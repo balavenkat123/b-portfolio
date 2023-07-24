@@ -1,13 +1,15 @@
 import React from "react";
 
 import html from "../assets/experience/html.png";
-import css from "../assets/experience/html.png";
-import javascript from "../assets/experience/html.png";
-import reactImage from "../assets/experience/html.png";
-import nextjs from "../assets/experience/html.png";
-import graphql from "../assets/experience/html.png";
-import github from "../assets/experience/html.png";
-import tailwind from "../assets/experience/html.png";
+import css from "../assets/experience/css.png";
+import javascript from "../assets/experience/javascript.png";
+import reactImage from "../assets/experience/react.png";
+import nextjs from "../assets/experience/node.png";
+import tailwind from "../assets/experience/tailwind.png"
+import github from "../assets/experience/github.png";
+import java1 from "../assets/experience/java1.png";
+
+
 
 const Experience = () => {
   const techs = [
@@ -47,16 +49,17 @@ const Experience = () => {
       title: "Tailwind",
       style: "shadow-sky-400",
     },
+    
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
     },
     {
       id: 8,
-      src: github,
-      title: "GitHub",
+      src: java1,
+      title: "DSA through java",
       style: "shadow-gray-400",
     },
   ];
@@ -64,11 +67,11 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen "
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline my-0">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white ">
+        <div >
+          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline ">
             Experience
           </p>
           <p className="py-6">These are the technologies I've worked with</p>

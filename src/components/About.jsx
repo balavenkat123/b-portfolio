@@ -6,7 +6,7 @@ const About = () => {
     <div className="h-screen w-full bg-gradient-to-b from-blue-950 via-blue-900 to-black text-white ">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-8">
-          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2 ">
+          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2  "id="about">
             About Me
           </h2>
         </div>  
