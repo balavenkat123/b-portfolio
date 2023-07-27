@@ -16,7 +16,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: bcounter,
-      link:"bcounter.netlify.app",
+      link:"https://bcounter.netlify.app",
       code:"https://github.com/balavenkat123/counter-js",
     },
     {
